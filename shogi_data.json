@@ -1,0 +1,46 @@
+{
+  "pieces": {
+    "rook": {
+      "name": "Rook (飛車 - Hisha)",
+      "movement": "Moves any number of squares orthogonally (up, down, left, right).",
+      "value": "10 Points",
+      "promoted": "Promoted Rook / Dragon (竜王 - Ryūō): Moves like a Rook + 1 step diagonally in any direction."
+    },
+    "bishop": {
+      "name": "Bishop (角行 - Kakugyō)",
+      "movement": "Moves any number of squares diagonally.",
+      "value": "8 Points",
+      "promoted": "Promoted Bishop / Horse (竜馬 - Ryūma): Moves like a Bishop + 1 step orthogonally."
+    },
+    "pawn": {
+      "name": "Pawn (歩兵 - Fuhyō)",
+      "movement": "Moves 1 square straight forward.",
+      "value": "1 Point",
+      "promoted": "Tokin (と金): Moves exactly like a Gold General."
+    }
+  },
+  "openings": {
+    "shikenbisha": {
+      "name": "Shikenbisha (四間飛車 - 4th File Rook)",
+      "type": "Ranging Rook (Furibisha)",
+      "description": "Moves the Rook to the 4th file (6th file for Black). Highly flexible and resilient defense against Static Rook play.",
+      "castle": "Mino Castle (美濃囲い)"
+    },
+    "yagura": {
+      "name": "Yagura (矢倉)",
+      "type": "Static Rook (Ibisho)",
+      "description": "A classic mutual Static Rook opening that builds a dense, fortress-like castle using Gold and Silver generals.",
+      "castle": "Yagura Castle (矢倉囲い)"
+    }
+  },
+  "dict": {
+    "nifu": {
+      "term": "Nifu (二歩 - Double Pawn Illegal Drop)",
+      "definition": "You cannot drop a Pawn onto a file that already contains one of your own unpromoted Pawns."
+    },
+    "uchifuzume": {
+      "term": "Uchifuzume (打ち歩詰 - Pawn Drop Mate)",
+      "definition": "You cannot deliver immediate checkmate by dropping a Pawn. You CAN checkmate with an existing Pawn move or by dropping any other piece."
+    }
+  }
+}
